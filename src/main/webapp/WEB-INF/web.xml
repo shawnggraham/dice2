@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+
+    <servlet>
+        <servlet-name>Dice</servlet-name>
+        <servlet-class>com.example.dice.DiceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Dice</servlet-name>
+        <url-pattern>/roll</url-pattern>
+    </servlet-mapping>
+
+</web-app>
